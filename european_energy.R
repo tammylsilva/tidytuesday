@@ -65,5 +65,5 @@ map<-ggplot(data, aes(x = long, y = lat)) +
   ggtitle("European Energy Use",
     subtitle="Energy type with the highest combined energy use (2016-2018) by country")
   
-ggsave("european_energy.tiff",map,height = 8, width = 8, dpi=300)
+ggsave("european_energy.png",map,height = 8, width = 8, dpi=300)
 
